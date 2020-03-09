@@ -3,15 +3,15 @@ require 'pry'
 class String
 
   def sentence?
-    return self[-1]=="."
+    return self.end_with?(".")
   end
 
   def question?
-    return self[-1]=="?"
+    return self.end_with?("?")
   end
 
   def exclamation?
-    return self[-1]=="!"
+    return selfend_with?("!")
   end
 
   def count_sentences
