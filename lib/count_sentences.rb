@@ -7,11 +7,11 @@ class String
   end
 
   def question?
-    return sentence[-1]=="?"
+    return self[-1]=="?"
   end
 
   def exclamation?
-    return sentence[-1]=="!"
+    return self[-1]=="!"
   end
 
   def count_sentences
